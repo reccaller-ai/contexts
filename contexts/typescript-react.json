@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "id": "typescript-react",
+  "name": "TypeScript React Development",
+  "description": "Context for TypeScript React projects",
+  "updated": "2025-10-27",
+  "patterns": ["*.tsx", "*.ts", "*.jsx", "*.js"],
+  "rules": [
+    "Use functional components with hooks",
+    "Prefer TypeScript strict mode",
+    "Use proper prop typing with interfaces",
+    "Follow React best practices for performance",
+    "Use CSS modules or styled-components for styling"
+  ],
+  "preferences": {
+    "framework": "React 18+",
+    "language": "TypeScript",
+    "stateManagement": "React hooks, Context API, or Zustand"
+  }
+}

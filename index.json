@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "updated": "2025-10-27",
+  "baseUrl": "https://contexts.reccaller.ai",
+  "contexts": [
+    {
+      "id": "default",
+      "name": "Default Context",
+      "url": "/contexts/default.json",
+      "description": "Base context configuration"
+    },
+    {
+      "id": "typescript-react",
+      "name": "TypeScript React",
+      "url": "/contexts/typescript-react.json",
+      "description": "For TypeScript React projects"
+    },
+    {
+      "id": "python",
+      "name": "Python Development",
+      "url": "/contexts/python.json",
+      "description": "For Python projects"
+    }
+  ],
+  "starter-pack": {
+    "url": "/starter-pack",
+    "status": "coming soon"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "id": "default",
+  "name": "Default Context",
+  "description": "Base context configuration for Reccaller",
+  "updated": "2025-10-27",
+  "patterns": ["*"],
+  "rules": [
+    "Follow project coding standards",
+    "Write clear, maintainable code",
+    "Include appropriate documentation"
+  ]
+}

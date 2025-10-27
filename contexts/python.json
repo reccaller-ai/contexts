@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "id": "python",
+  "name": "Python Development",
+  "description": "Context for Python projects",
+  "updated": "2025-10-27",
+  "patterns": ["*.py"],
+  "rules": [
+    "Follow PEP 8 style guide",
+    "Use type hints for function signatures",
+    "Write docstrings for functions and classes",
+    "Use virtual environments for dependencies",
+    "Prefer f-strings for string formatting"
+  ],
+  "preferences": {
+    "pythonVersion": "3.10+",
+    "formatter": "black",
+    "linter": "ruff or pylint"
+  }
+}
