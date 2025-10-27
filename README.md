@@ -1,38 +1,55 @@
 # Reccaller Contexts Store
 
-Official context repository for [Reccaller AI](https://reccaller.ai) - version-controlled context configurations for better AI-assisted development.
+Official context repository for [Reccaller AI](https://reccaller.ai) - version-controlled context configurations and recipes for better AI-assisted development.
 
 ## 🌐 Access
 
 Base URL: **https://contexts.reccaller.ai**
 
-## 📚 Available Contexts
+## 📚 Repository Structure
+
+This repository now supports both **contexts** (for AI-assisted development environments) and **recipes** (for RecCall shortcuts and automation).
+
+### Structure
+```
+contexts/
+├── manifest.json       # Recipe manifest with shortcuts and metadata
+├── contexts/           # Context configurations
+│   ├── default.json
+│   ├── python.json
+│   └── typescript-react.json
+├── git/               # Git-related recipes
+│   ├── sync-main.json
+│   ├── create-feature-branch.json
+│   └── cleanup-branches.json
+├── development/       # Development recipes
+├── deployment/        # Deployment recipes
+├── debugging/         # Debugging recipes
+├── code-review/       # Code review recipes
+├── testing/          # Testing recipes
+├── database/         # Database recipes
+├── security/         # Security recipes
+├── devops/           # DevOps recipes
+├── frontend/         # Frontend recipes
+├── backend/          # Backend recipes
+├── project-management/ # Project management recipes
+└── additional/       # Additional utilities
+```
+
+## 🚀 Usage
+
+### RecCall Recipes
+
+Browse available recipes via the manifest:
+```bash
+curl https://contexts.reccaller.ai/manifest.json
+```
+
+### Contexts
 
 Browse all available contexts:
 ```bash
 curl https://contexts.reccaller.ai/index.json
-```
-
-### Current Contexts
-
-- **Default** - Base context configuration
-  - `https://contexts.reccaller.ai/contexts/default.json`
-
-- **TypeScript React** - For React/TypeScript projects
-  - `https://contexts.reccaller.ai/contexts/typescript-react.json`
-
-- **Python** - For Python development
-  - `https://contexts.reccaller.ai/contexts/python.json`
-
-## 🚀 Usage
-
-### Via CLI (coming soon)
-```bash
-# List available contexts
-reccaller contexts list
-
-# Download a specific context
-reccaller contexts get typescript-react
 ```
 
 ### Direct Download
@@ -40,23 +57,23 @@ reccaller contexts get typescript-react
 # Get a specific context
 curl https://contexts.reccaller.ai/contexts/typescript-react.json
 
-# Get the index
-curl https://contexts.reccaller.ai/index.json
+# Get a specific recipe
+curl https://contexts.reccaller.ai/git/sync-main.json
+
+# Get the manifest
+curl https://contexts.reccaller.ai/manifest.json
 ```
 
-## 📦 Structure
-```
-contexts/
-├── default.json          # Base context
-├── typescript-react.json # TypeScript React context
-├── python.json          # Python context
-└── ...                  # More contexts
+## 🎯 Recipe Format
 
-starter-pack/            # Coming soon
-└── ...                  # Starter pack files
-
-index.json              # Context directory
-CNAME                   # GitHub Pages domain
+Each recipe is a JSON file with the following structure:
+```json
+{
+  "shortcut": "sync-main",
+  "context": "Switch to main branch and pull latest changes...",
+  "category": "git",
+  "description": "Sync main branch with latest remote changes"
+}
 ```
 
 ## 🎯 Context Format
