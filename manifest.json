@@ -1,0 +1,239 @@
+{
+  "name": "RecCall Official Contexts",
+  "description": "Official context repository for RecCall",
+  "version": "1.0.0",
+  "url": "https://contexts.reccaller.ai/",
+  "recipes": [
+    {
+      "name": "Sync Main Branch With Latest Remote Changes",
+      "shortcut": "sync-main",
+      "description": "Sync main branch with latest remote changes",
+      "file": "git/sync-main.json",
+      "category": "git"
+    },
+    {
+      "name": "Create A New Feature Branch With Proper Naming Convention",
+      "shortcut": "create-feature-branch",
+      "description": "Create a new feature branch with proper naming convention",
+      "file": "git/create-feature-branch.json",
+      "category": "git"
+    },
+    {
+      "name": "Clean Up Merged Branches To Keep Repository Tidy",
+      "shortcut": "cleanup-branches",
+      "description": "Clean up merged branches to keep repository tidy",
+      "file": "git/cleanup-branches.json",
+      "category": "git"
+    },
+    {
+      "name": "Generic Component Development Best Practices",
+      "shortcut": "component-development",
+      "description": "Generic component development best practices",
+      "file": "development/component-development.json",
+      "category": "development"
+    },
+    {
+      "name": "Comprehensive Api Testing Guidelines",
+      "shortcut": "api-testing",
+      "description": "Comprehensive API testing guidelines",
+      "file": "development/api-testing.json",
+      "category": "development"
+    },
+    {
+      "name": "Guidelines For Writing Comprehensive Documentation",
+      "shortcut": "documentation",
+      "description": "Guidelines for writing comprehensive documentation",
+      "file": "development/documentation.json",
+      "category": "development"
+    },
+    {
+      "name": "Generic Error Handling Best Practices",
+      "shortcut": "error-handling",
+      "description": "Generic error handling best practices",
+      "file": "development/error-handling.json",
+      "category": "development"
+    },
+    {
+      "name": "Generic Performance Optimization Guidelines",
+      "shortcut": "performance-optimization",
+      "description": "Generic performance optimization guidelines",
+      "file": "development/performance-optimization.json",
+      "category": "development"
+    },
+    {
+      "name": "Complete Deployment Checklist And Process",
+      "shortcut": "deploy",
+      "description": "Complete deployment checklist and process",
+      "file": "deployment/deploy.json",
+      "category": "deployment"
+    },
+    {
+      "name": "Pre-Deployment Checklist To Ensure Safe Releases",
+      "shortcut": "pre-deploy-check",
+      "description": "Pre-deployment checklist to ensure safe releases",
+      "file": "deployment/pre-deploy-check.json",
+      "category": "deployment"
+    },
+    {
+      "name": "Systematic Debugging Approach And Best Practices",
+      "shortcut": "debug",
+      "description": "Systematic debugging approach and best practices",
+      "file": "debugging/debug.json",
+      "category": "debugging"
+    },
+    {
+      "name": "Performance Debugging And Optimization Guidelines",
+      "shortcut": "performance-debug",
+      "description": "Performance debugging and optimization guidelines",
+      "file": "debugging/performance-debug.json",
+      "category": "debugging"
+    },
+    {
+      "name": "Comprehensive Code Review Checklist",
+      "shortcut": "code-review",
+      "description": "Comprehensive code review checklist",
+      "file": "code-review/code-review.json",
+      "category": "code-review"
+    },
+    {
+      "name": "Security-Focused Code Review Guidelines",
+      "shortcut": "security-review",
+      "description": "Security-focused code review guidelines",
+      "file": "code-review/security-review.json",
+      "category": "code-review"
+    },
+    {
+      "name": "Write Comprehensive Unit Tests With Proper Coverage And Best Practices",
+      "shortcut": "unit-tests",
+      "description": "Write comprehensive unit tests with proper coverage and best practices",
+      "file": "testing/unit-tests.json",
+      "category": "testing"
+    },
+    {
+      "name": "Create Integration Tests That Verify Component Interactions And System Behavior",
+      "shortcut": "integration-tests",
+      "description": "Create integration tests that verify component interactions and system behavior",
+      "file": "testing/integration-tests.json",
+      "category": "testing"
+    },
+    {
+      "name": "Analyze And Improve Test Coverage To Ensure Comprehensive Testing",
+      "shortcut": "test-coverage",
+      "description": "Analyze and improve test coverage to ensure comprehensive testing",
+      "file": "testing/test-coverage.json",
+      "category": "testing"
+    },
+    {
+      "name": "Create And Manage Database Migrations Safely And Efficiently",
+      "shortcut": "migrations",
+      "description": "Create and manage database migrations safely and efficiently",
+      "file": "database/migrations.json",
+      "category": "database"
+    },
+    {
+      "name": "Optimize Database Queries For Better Performance And Efficiency",
+      "shortcut": "query-optimization",
+      "description": "Optimize database queries for better performance and efficiency",
+      "file": "database/query-optimization.json",
+      "category": "database"
+    },
+    {
+      "name": "Implement Secure Authentication Mechanisms And User Management",
+      "shortcut": "authentication",
+      "description": "Implement secure authentication mechanisms and user management",
+      "file": "security/authentication.json",
+      "category": "security"
+    },
+    {
+      "name": "Implement Proper Authorization And Access Control Mechanisms",
+      "shortcut": "authorization",
+      "description": "Implement proper authorization and access control mechanisms",
+      "file": "security/authorization.json",
+      "category": "security"
+    },
+    {
+      "name": "Set Up Comprehensive Monitoring And Alerting For Applications And Infrastructure",
+      "shortcut": "monitoring",
+      "description": "Set up comprehensive monitoring and alerting for applications and infrastructure",
+      "file": "devops/monitoring.json",
+      "category": "devops"
+    },
+    {
+      "name": "Implement Comprehensive Logging Strategies For Debugging And Monitoring",
+      "shortcut": "logging",
+      "description": "Implement comprehensive logging strategies for debugging and monitoring",
+      "file": "devops/logging.json",
+      "category": "devops"
+    },
+    {
+      "name": "Create Reusable And Accessible Ui Components With Best Practices",
+      "shortcut": "ui-components",
+      "description": "Create reusable and accessible UI components with best practices",
+      "file": "frontend/ui-components.json",
+      "category": "frontend"
+    },
+    {
+      "name": "Implement Web Accessibility (A11Y) Best Practices For Inclusive Design",
+      "shortcut": "accessibility",
+      "description": "Implement web accessibility (a11y) best practices for inclusive design",
+      "file": "frontend/accessibility.json",
+      "category": "frontend"
+    },
+    {
+      "name": "Design And Implement Restful Apis With Best Practices And Standards",
+      "shortcut": "api-design",
+      "description": "Design and implement RESTful APIs with best practices and standards",
+      "file": "backend/api-design.json",
+      "category": "backend"
+    },
+    {
+      "name": "Design And Implement Microservices Architecture With Proper Patterns And Practices",
+      "shortcut": "microservices",
+      "description": "Design and implement microservices architecture with proper patterns and practices",
+      "file": "backend/microservices.json",
+      "category": "backend"
+    },
+    {
+      "name": "Provide Accurate Project And Task Estimation Using Proven Techniques",
+      "shortcut": "estimation",
+      "description": "Provide accurate project and task estimation using proven techniques",
+      "file": "project-management/estimation.json",
+      "category": "project-management"
+    },
+    {
+      "name": "Facilitate Effective Team Communication And Stakeholder Management",
+      "shortcut": "communication",
+      "description": "Facilitate effective team communication and stakeholder management",
+      "file": "project-management/communication.json",
+      "category": "project-management"
+    },
+    {
+      "name": "Guidelines For Creating Comprehensive Pull Requests",
+      "shortcut": "create-pr",
+      "description": "Guidelines for creating comprehensive pull requests",
+      "file": "additional/create-pr.json",
+      "category": "additional"
+    },
+    {
+      "name": "Guidelines For Updating Landing Pages With Repository System Features",
+      "shortcut": "update-landing",
+      "description": "Guidelines for updating landing pages with repository system features",
+      "file": "additional/update-landing.json",
+      "category": "additional"
+    },
+    {
+      "name": "Test Global Storage Availability Across Ai Ides",
+      "shortcut": "testing-global-storage",
+      "description": "Test global storage availability across AI IDEs",
+      "file": "additional/testing-global-storage.json",
+      "category": "additional"
+    },
+    {
+      "name": "Guidelines For Updating Existing Pull Requests",
+      "shortcut": "update-pr",
+      "description": "Guidelines for updating existing pull requests",
+      "file": "additional/update-pr.json",
+      "category": "additional"
+    }
+  ]
+}
